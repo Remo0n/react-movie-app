@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Trending Movies, TV Shows, and People App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application that allows you to explore trending movies, TV shows, and people. It also provides search functionality and detailed information for each media item.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Trending Movies, TV Shows, and People App](#trending-movies-tv-shows-and-people-app)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installing](#installing)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These instructions will help you get a copy of the project up and running on your local machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before you begin, make sure you have the following installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/) - The JavaScript runtime environment
+- [npm](https://www.npmjs.com/) - The Node.js package manager
 
-### `npm run build`
+### Installing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/Remo0n/react-movie-app.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Change your working directory to the project folder:
 
-### `npm run eject`
+bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd trending-movies-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Install project dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+Running the App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the application locally, use the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will start, and you can access it in your web browser at http://localhost:3000.
+Usage
 
-### Analyzing the Bundle Size
+    Trending Page: The landing page displays trending movies, TV shows, and people. Click on a media item to see more details.
+    Search Page: Access the search functionality to find specific media items by title or keyword.
+    Media Detail Page: View detailed information about a specific media item, including posters, backdrops, and other relevant information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Testing
 
-### Making a Progressive Web App
+The application is equipped with unit tests to ensure functionality and code quality. To run the tests, use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
 
-### Advanced Configuration
+npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Deployment
 
-### Deployment
+This app can be deployed to various hosting platforms, such as Vercel, Netlify, or GitHub Pages. Follow the deployment instructions for your chosen platform to make your app accessible to users.
+Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    React - JavaScript library for building user interfaces
+    React Router - Routing for single-page applications
+    Material-UI - UI components and styling
+    Axios - HTTP client for making API requests
 
-### `npm run build` fails to minify
+License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
+```
